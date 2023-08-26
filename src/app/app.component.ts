@@ -33,7 +33,7 @@ export class AppComponent implements OnInit {
   }
 
   public onAddProperty(addForm: NgForm): void {
-    document.getElementById('add-property-form').click();
+    // document.getElementById('add-property-form').click();
     this.propertyService.addProperty(addForm.value).subscribe(
       (response: Property) => {
         console.log(response);
