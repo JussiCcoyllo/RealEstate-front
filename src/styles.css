@@ -61,11 +61,6 @@ color: white;
 .bg-dark {
     background-color: #07c0df!important;
 }
-.btn-primary {
-    color: #fff;
-    background-color: #b183c4;
-    border-color: #bf73df;
-}
 .btn-secondary {
     color: #fff;
     background-color: #60167e;
@@ -75,12 +70,25 @@ color: white;
 .btn-primary[_ngcontent-ng-c2281162070] {
     margin-top: 20px;
     display: block;
-    width: 80%;
+    width: 80%!important;
     margin: 20px auto;
     border-radius: 50px;
     /* color: #fff; */
-    background-color: #60167e;
+    background-color: #60167e!important;
 }
+/* .btn-primary {
+    color: #fff;
+    background-color: #60167e;
+    border-color: #b183c4;
+    border-radius: 1.1em;
+} */
+
+.btn-primary {
+    color: #fff;
+    background-color: #b183c4;
+    border-color: #bf73df;
+}
+
 .form-control-lg {
     height: calc(2.875rem + 2px);
     padding: 0.5rem 1rem;
@@ -90,7 +98,10 @@ color: white;
 }
 .btn-group-lg>.btn, .btn-lg {
     padding: 0.5rem 1rem;
+    width: 80%;
     font-size: 1.15rem;
     line-height: 1.5;
-    border-radius: 0.3rem;
+    border-radius: 1.3rem;
+    background-color: #60167e;
+
 }
