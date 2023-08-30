@@ -22,7 +22,7 @@ export class PropertyService {
     );
   }
   public updateProperty(property: Property): Observable<Property> {
-    return this.http.post<Property>(
+    return this.http.put<Property>(
       `${this.apiServerUrl}/property/update`,
       property
     );
