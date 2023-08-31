@@ -1,9 +1,7 @@
 @import 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css';
 @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
 
-body {
-  background: #f5f5f5;
-}
+ 
 
 a {
   cursor: pointer;
@@ -113,3 +111,10 @@ color: white;
     max-width: 41%;
 }
 }
+
+
+.mat-mdc-raised-button.mat-primary {
+  --mdc-protected-button-container-color: #18484a;
+  --mdc-protected-button-label-text-color: #fff;
+}
+

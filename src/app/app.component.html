@@ -1,6 +1,7 @@
-<!-- <app-landing-page></app-landing-page> -->
+<app-landing-page></app-landing-page>
 <!-- <app-login></app-login> -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" style="color:white;">HSH Property Manager</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
     aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
@@ -8,9 +9,9 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarColor02">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item active"> -->
         <!-- <a class="nav-link" (click)="onOpenModal(null, 'add')">Add Property <span class="sr-only">(current)</span></a> -->
-      </li>
+      <!-- </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input type="search" (ngModelChange)="searchProperties(key.value)" #key="ngModel" ngModel name="key"
@@ -23,9 +24,9 @@
     <div *ngFor="let property of properties" class="col-md-6 col-xl-3">
       <div class="card m-b-30">
         <div class="card-body row">
-          <div class="col-6">
+          <div class="col-6"> -->
             <!-- <a href=""><img src="{{property?.imageUrl}}" alt="" class="img-fluid rounded-circle w-60"></a> -->
-          </div>
+          <!-- </div>
           <div class="col-6 card-title align-self-center mb-0">
             <h5>{{property?.address}}</h5>
             <p class="m-0">{{property?.number}}</p>
@@ -45,10 +46,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- Add property Modal -->
-  <div class="modal fade" id="addPropertyModal" tabindex="-1" role="dialog" aria-labelledby="addPropertyModalLabel"
+  <!-- <div class="modal fade" id="addPropertyModal" tabindex="-1" role="dialog" aria-labelledby="addPropertyModalLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -77,11 +78,11 @@
               <label for="phone">Phone</label>
               <input type="text" ngModel name="phone" class="form-control" id="phone" placeholder="Phone" required>
             </div>
-            <div class="form-group">
+            <div class="form-group"> -->
               <!-- <label for="phone">Image URL</label>
               <input type="text" ngModel name="imageUrl" class="form-control" id="imageUrl" placeholder="Image URL"
                 required> -->
-            </div>
+            <!-- </div>
             <div class="modal-footer">
               <button type="button" id="add-property-form" class="btn btn-secondary" data-dismiss="modal">Close</button>
               <button [disabled]="addForm.invalid" type="submit" class="btn btn-primary">Save changes</button>
@@ -90,10 +91,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- Edit Modal -->
-  <div class="modal fade" id="updatePropertyModal" tabindex="-1" role="dialog" aria-labelledby="propertyEditModalLabel"
+  <!-- <div class="modal fade" id="updatePropertyModal" tabindex="-1" role="dialog" aria-labelledby="propertyEditModalLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -123,7 +124,7 @@
               <label for="phone">Job title</label>
               <input type="text" ngModel="{{editProperty?.number}}" name="jobTitle" class="form-control" id="jobTitle"
                 placeholder="Job title">
-            </div>
+            </div> -->
             <!-- <div class="form-group">
               <label for="phone">Phone</label>
               <input type="text" ngModel="{{Property?.phone}}" name="phone" class="form-control" id="phone"
@@ -134,7 +135,7 @@
               <input type="text" ngModel="{{editProperty?.imageUrl}}" name="imageUrl" class="form-control" id="imageUrl"
                 placeholder="Image URL">
             </div> -->
-            <div class="modal-footer">
+            <!-- <div class="modal-footer">
               <button type="button" id="" data-dismiss="modal" class="btn btn-secondary">Close</button>
               <button (click)="onUpdateProperty(editForm.value)" data-dismiss="modal" class="btn btn-primary">Save
                 changes</button>
@@ -143,10 +144,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- Delete Modal -->
-  <div class="modal fade" id="deletePropertyModal" tabindex="-1" role="dialog" aria-labelledby="deleteModelLabel"
+  <!-- <div class="modal fade" id="deletePropertyModal" tabindex="-1" role="dialog" aria-labelledby="deleteModelLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -159,20 +160,20 @@
         <div class="modal-body">
           <p>Are you sure you want to delete property {{deleteProperty?.address}}?</p>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button> -->
             <!-- <button (click)="onDeleteProperty(deleteProperty?.id)" class="btn btn-danger"
               data-dismiss="modal">Yes</button> -->
-          </div>
+          <!-- </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- Notification for no employees -->
-<div *ngIf="properties?.length == 0" class="col-lg-12 col-md-12 col-xl-12">
+<!-- <div *ngIf="properties?.length == 0" class="col-lg-12 col-md-12 col-xl-12">
   <div class="alert alert-info" role="alert">
     <h4 class="alert-heading">NO PROPERTIES!</h4>
     <p>No Properties were found.</p>
   </div>
-</div>
+</div> -->
