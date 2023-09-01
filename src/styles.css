@@ -112,9 +112,9 @@ color: white;
 }
 }
 
-
-.mat-mdc-raised-button.mat-primary {
-  --mdc-protected-button-container-color: #18484a;
-  --mdc-protected-button-label-text-color: #fff;
+.card, .m-b-30{
+    background: #edf0f1!important;
 }
-
+.list-group-item{
+  background: #edf0f1!important;
+}
