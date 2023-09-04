@@ -2,8 +2,8 @@
 @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
 
  body{
-    background: url('./assets/backgr.png') fixed no-repeat bottom;
-  background-size: 100%;
+    background: url('./assets/backlogo.png') fixed no-repeat right bottom;
+  background-size: 40%;
 
  }
 
