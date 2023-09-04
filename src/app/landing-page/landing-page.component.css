@@ -16,7 +16,7 @@ body {
 .bg-img {
   
   /* The image used */
-  /* background-image: url('../../assets/backgr.png'); */
+  background-image: url('../../assets/backgr.png');
   min-height: 100%;
 
   /* Center and scale the image nicely */
@@ -126,3 +126,4 @@ h1 {
 .btn-group-lg>.btn, .btn-lg {
   margin: 0.7em;
 }
+ 

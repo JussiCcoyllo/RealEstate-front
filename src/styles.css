@@ -1,7 +1,11 @@
 @import 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css';
 @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
 
- 
+ body{
+    background: url('./assets/backgr.png') fixed no-repeat bottom;
+  background-size: 100%;
+
+ }
 
 a {
   cursor: pointer;
@@ -9,6 +13,8 @@ a {
 
 .navbar {
   margin-bottom: 30px;
+
+
 }
 
 .card {
@@ -119,3 +125,8 @@ color: white;
   background: #edf0f1!important;
 }
 
+.bg-img {
+  
+  /* The image used */
+  
+}
