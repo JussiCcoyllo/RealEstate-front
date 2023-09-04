@@ -10,6 +10,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { RegisterComponent } from './register/register.component';
 import { AdminComponent } from './admin/admin.component';
 import { TenantComponent } from './tenant/tenant.component';
+import { SupplierComponent } from './supplier/supplier.component';
 
 
 
@@ -21,6 +22,7 @@ import { TenantComponent } from './tenant/tenant.component';
     RegisterComponent,
     AdminComponent,
     TenantComponent,
+    SupplierComponent,
 
   ],
   imports: [
