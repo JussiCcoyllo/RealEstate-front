@@ -1,27 +1,29 @@
-# RealestateFront
+# Real Estate Application
+ 
+The aim of this programming project is to develop a responsive real estate application that serves as a ticketing system to centralize communication and reporting for events within a building. The application will connect four key users: the owner, the tenant, the manager, and the supplier.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+## Key Features:
+Centralization: The application will serve as a central hub for managing and tracking reported issues within the building.
+Communication: Users can communicate within the application and exchange messages, photos, text, and videos related to reported issues.
+Reporting: The application generates detailed reports for various activities and events within the building, providing insights and analytics.
 
-## Development server
+## User Roles:
+Manager: Responsible for managing reported issues, assigning tasks to suppliers, and ensuring timely resolutions.
+Tenant: Refers to the tenant or resident who can report building or service issues and provide relevant details, such as media files and additional text.
+Supplier: Represents the supplier or service worker who receives notifications and tasks assigned by the manager for issue resolution.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Functionality Overview:
+All users can report issues through the application, including the ability to add photos, videos, and descriptions.
+The manager has the authority to manage and prioritize reported issues, assigning them to the relevant suppliers for resolution and can generate detailed reports for each property.
+Suppliers receive notifications for assigned tasks and have access to the necessary information to perform repairs or services.
+Tenants can report issues, specify their availability, and grant access to suppliers for issue resolution.
 
-## Code scaffolding
+## Programming Language and Tools:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+For the implementation of this project, the following technologies will be used:
+Spring Boot: A Java-based framework for developing the backend server application.
+Angular: A TypeScript-based framework for building the frontend client application.
+MySQL: A relational database management system for storing and managing application data.
+IDE: IntelliJ, Visual Studio Code, DataGrip
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+By utilizing these technologies, the application will provide a user-friendly, responsive, and efficient platform for managing, communicating, and reporting issues within the building, thereby improving overall operational efficiency and tenant satisfaction.
