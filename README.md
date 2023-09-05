@@ -27,3 +27,13 @@ MySQL: A relational database management system for storing and managing applicat
 IDE: IntelliJ, Visual Studio Code, DataGrip
 
 By utilizing these technologies, the application will provide a user-friendly, responsive, and efficient platform for managing, communicating, and reporting issues within the building, thereby improving overall operational efficiency and tenant satisfaction.
+## Views
+### Landing Page:
+![image](https://github.com/JussiCcoyllo/RealEstate-front/assets/46483286/b69f8148-9c6a-4b71-81ad-e1fd94c89a9c)
+
+### Login:
+![image](https://github.com/JussiCcoyllo/RealEstate-front/assets/46483286/bcce7c20-d166-407f-8d19-b8546b664dd2)
+
+### Register:
+![image](https://github.com/JussiCcoyllo/RealEstate-front/assets/46483286/d1edc5ba-1d28-4479-89c0-c3c0b067ed2d)
+
